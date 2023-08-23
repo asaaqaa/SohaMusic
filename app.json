@@ -1,9 +1,16 @@
 {
     "name": "KyyMusic",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
-    "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/asaaqaa/SohaMusic",
-
+"keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "music",
+    "voice chat",
+    "telegram-bot",
+    "pyrogram"
+    ], 
     "env": {
         "SESSION_NAME": {
             "description": "isi dengan string sesi pyrogram dari akun",
