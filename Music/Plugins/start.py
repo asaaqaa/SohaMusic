@@ -59,11 +59,11 @@ pstart_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                "➕  اضفني الى مجموعتك ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{GROUP}"),
-            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
+            InlineKeyboardButton(text="جروبنا​", url=f"https://t.me/{GROUP}"),
+            InlineKeyboardButton("قناة السورس", url=f"https://t.me/{CHANNEL}"),
         ],
         [
             InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ ​📚", url="https://telegra.ph/ҡʏʏ-ᴍᴇᴍ-ᴇx-01-21-2"),
