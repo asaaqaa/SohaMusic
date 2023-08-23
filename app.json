@@ -3,7 +3,7 @@
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/asaaqaa/SohaMusic",
-    "stack": "heroku-22",
+
     "env": {
         "SESSION_NAME": {
             "description": "isi dengan string sesi pyrogram dari akun",
@@ -74,16 +74,17 @@
             "value": "master",
             "required": true
         }
-    },
-    "buildpacks": [{
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }, {
-      "url": "heroku/python"
-    }],
-    "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  }
-}
+      },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  } 
